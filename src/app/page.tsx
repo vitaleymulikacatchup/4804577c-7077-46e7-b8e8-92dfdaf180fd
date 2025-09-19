@@ -6,6 +6,7 @@ import SocialsAbout from '@/components/sections/layouts/about/SocialsAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import FooterLogoEmphasisBackgroundGradient from '@/components/footer/FooterLogoEmphasisBackgroundGradient';
+import { ArrowRight } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -49,9 +50,9 @@ export default function Home() {
           title="Tokenomics Overview"
           description="Insight into our token distribution and utility."
           kpiItems={[
-            { value: "50%", description: "Circulating Supply", icon: null },
-            { value: "20%", description: "Team & Advisors", icon: null },
-            { value: "30%", description: "Marketing & Partnerships", icon: null }
+            { value: "50%", description: "Circulating Supply", icon: ArrowRight },
+            { value: "20%", description: "Team & Advisors", icon: ArrowRight },
+            { value: "30%", description: "Marketing & Partnerships", icon: ArrowRight }
           ]}
         />
       </div>
