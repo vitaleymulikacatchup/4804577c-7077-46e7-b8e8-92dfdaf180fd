@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarStyleMinimal from '@/components/navigation/NavbarStyleMinimal';
 import BillboardHero from '@/components/sections/layouts/hero/BillboardHero';
@@ -32,7 +32,7 @@ export default function Home() {
       <div id="about" data-section="about" className="scroll-mt-24">
         <SocialsAbout
           title="About Us"
-          descriptions={["We provide top-notch SaaS solutions.,", "Trusted by leading firms in the industry."]}
+          descriptions={["We provide top-notch SaaS solutions.", "Trusted by leading firms in the industry."]}
         />
       </div>
       <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
